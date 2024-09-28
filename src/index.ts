@@ -4,7 +4,7 @@ interface Color {
   green: number 
 }
 
-const Color = {
+const Color: Color = {
   red:100,
   blue:200,
   green: 300
