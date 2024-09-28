@@ -42,6 +42,9 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# build folder 
+build/
+
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -141,4 +144,4 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# End of https://www.toptal.com/developers/gitignore/api/node
+# End of https://www.toptal.com/developers/gitignore/api/Node
