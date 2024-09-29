@@ -1,6 +1,5 @@
 import 'tsconfig-paths/register';
 
-
 // Errors 
 export * from "./errors/bad-request.error";
 export * from "./errors/custom-abs.error";
