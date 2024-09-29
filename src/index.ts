@@ -1,4 +1,7 @@
-import 'tsconfig-paths/register';
+if (process.env.NODE_ENV !== 'production') {
+  require('tsconfig-paths/register')
+}
+
 
 // Errors 
 export * from "./errors/bad-request.error";
