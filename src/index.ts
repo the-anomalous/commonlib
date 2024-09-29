@@ -1,8 +1,3 @@
-// if (process.env.NODE_ENV !== 'production') {
-  // require('tsconfig-paths/register')
-// }
-
-
 // Errors 
 export * from "./errors/bad-request.error";
 export * from "./errors/custom-abs.error";
