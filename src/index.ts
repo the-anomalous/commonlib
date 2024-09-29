@@ -1,6 +1,6 @@
-if (process.env.NODE_ENV !== 'production') {
-  require('tsconfig-paths/register')
-}
+// if (process.env.NODE_ENV !== 'production') {
+  // require('tsconfig-paths/register')
+// }
 
 
 // Errors 
