@@ -1,4 +1,4 @@
-import CustomError from "@/errors/custom-abs.error";
+import {CustomError} from "@/errors/custom-abs.error";
 
 class BadRequestError extends CustomError {
     statusCode = 400;
@@ -16,4 +16,4 @@ class BadRequestError extends CustomError {
     }
 }
 
-export default BadRequestError;
+export {BadRequestError};

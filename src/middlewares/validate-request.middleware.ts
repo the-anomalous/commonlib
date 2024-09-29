@@ -1,4 +1,4 @@
-import RequestValidationError from "@/errors/request-validation.error";
+import {RequestValidationError} from "@/errors/request-validation.error";
 import { NextFunction, Request, Response } from "express";
 import { validationResult } from "express-validator";
 
@@ -12,4 +12,4 @@ const validateRequest = (req: Request, res: Response, next: NextFunction) => {
     next()
 };
 
-export default validateRequest;
+export { validateRequest};

@@ -1,4 +1,4 @@
-import CustomError from "@/errors/custom-abs.error";
+import {CustomError} from "@/errors/custom-abs.error";
 
 class NotFoundError extends CustomError {
     statusCode = 404;
@@ -16,4 +16,4 @@ class NotFoundError extends CustomError {
     }
 }
 
-export default NotFoundError
+export {NotFoundError}

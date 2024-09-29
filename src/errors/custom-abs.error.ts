@@ -9,4 +9,4 @@ abstract class CustomError extends Error {
     abstract serializeErrors(): {message: string, field?: string}[]
 } 
 
-export default CustomError
+export {CustomError}

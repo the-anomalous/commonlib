@@ -1,4 +1,4 @@
-import CustomError from "@/errors/custom-abs.error";
+import {CustomError} from "@/errors/custom-abs.error";
 
 class NotAuthorizedError extends CustomError {
     statusCode = 401 
@@ -16,4 +16,4 @@ class NotAuthorizedError extends CustomError {
     }
 }
 
-export default NotAuthorizedError
+export {NotAuthorizedError}

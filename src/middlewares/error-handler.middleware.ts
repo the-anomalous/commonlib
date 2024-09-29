@@ -1,4 +1,4 @@
-import CustomError from "@/errors/custom-abs.error"
+import {CustomError} from "@/errors/custom-abs.error"
 import { NextFunction, Request, Response } from "express"
 
 const errorHandler = (err:Error, req:Request, res:Response, next:NextFunction) => {
@@ -10,4 +10,4 @@ const errorHandler = (err:Error, req:Request, res:Response, next:NextFunction) =
     }])
 }
 
-export default errorHandler
+export {errorHandler}
