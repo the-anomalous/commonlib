@@ -10,7 +10,7 @@ declare global {
   namespace Express {
     interface Request {
       currentUser?: currentUserInterface;
-      session?: { jwt:string} | null 
+      session?: { jwt: string } | null;
     }
   }
 }
@@ -29,4 +29,4 @@ const currentUser = (req: Request, res: Response, next: NextFunction) => {
   next();
 };
 
-export {currentUser};
+export { currentUser };
